@@ -5,7 +5,7 @@
 该函数允许用户将任何文本字串合成为声音。该函数接受两个参数，第一个参数是需要合成为声音的文本字串，而第二个参数则是回调函数的对象，第二个参数是可选的。
 
 Parameters|type|Description
----|:--:|---:
+---|:--:|---
 text|String|The string that's meant to be spoken
 configuration|Object|An object with the 2 available callbacks for this function and the code language if you don't want to use the same language providen in the initialization.(onStart: a function triggered when artyom starts to speak|onEnd: a function triggered when artyom stops speaking|lang: force the language for a single utterance object.)
 

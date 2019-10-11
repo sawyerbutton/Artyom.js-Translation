@@ -43,8 +43,7 @@ lang|String|"en-GB"|Set the default language of artyom with this property
 mode|String|"normal"|normal,quick,remote, read original API for more info
 executionKeyword|String|null|Set a keyword that allows your command to be executed immediately when you say this word (Useful in noisy environments)
 obeyKeyword|String|null|Set a keyword that allows to enable the command recognition automatically if this word (or words) is recognized while artyom is paused by artyom.dontObey.
-soundex|Boolean|false|Enable the soundex algorithm for the command recognition. Sometimes the speech recognition is not 100% accurate, therefore you may want to enable to match a command even when the speech recognition API recognizes something wrong.
-For example, if you have a command that reacts to "Open Wallmart" and artyom recognizes "Open Willmar" the command will be not triggered. However, if the soundex option is enabled and artyom recognizes "Open Willmar" the command that reacts to "Open Wallmart" will be executed because the soundex index of these words is the same (O154).
+soundex|Boolean|false|Enable the soundex algorithm for the command recognition. Sometimes the speech recognition is not 100% accurate, therefore you may want to enable to match a command even when the speech recognition API recognizes something wrong.For example, if you have a command that reacts to "Open Wallmart" and artyom recognizes "Open Willmar" the command will be not triggered. However, if the soundex option is enabled and artyom recognizes "Open Willmar" the command that reacts to "Open Wallmart" will be executed because the soundex index of these words is the same (O154).
 name|String|null|Provide a name to your assistant. In this way, the assistant will reacts to the commands only when you start a phrase with this name e.g "Jarvis Good Morning".
 
 ## 以持续模式启动artyom
