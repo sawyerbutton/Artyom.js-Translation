@@ -18,7 +18,7 @@ Artyom 是对 Google Chrome SpeechSynthesis 和 SpeechRecognition 的强健封�
 ## 主要内容
 
 1. FAQ
-   1. 为什么 artyom 无法在本地文件工作
+   1. [为什么 artyom 无法在本地文件工作](./FAQ/为什么 artyom无法在本地文件工作.md)
    2. 为什么在移动设备上，artyom.say(speech synthesis) 使用原生语音进行发音
    3. 为什么 voice 命令无法在 jsfiddle 上正常使用。
 
